@@ -1,125 +1,29 @@
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:SmSZn3
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^facepunch$ http://facepunch.com/showthread.php?t=1287172 [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE SmSZn3:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:ZQavZw
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^msmminecraft$ http://forum.megasimman.com/index.php?threads/msm-minecraft-server.3/ [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE ZQavZw:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:H6wDRm
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^minecraft$ http://forum.megasimman.com/index.php?threads/msm-minecraft-server.3/ [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE H6wDRm:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:vcof8z
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^store$ http://shop.megasimman.com/partner-xMegaSimManx/ [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE vcof8z:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:AbgQX1
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^shop$ http://shop.megasimman.com/partner-xMegaSimManx/ [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE AbgQX1:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:qi9wtF
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^partnership$ http://apply.fullscreen.net/fullscreen?ref=xmegasimmanx [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE qi9wtF:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:lKx8JK
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^partner$ http://apply.fullscreen.net/fullscreen?ref=xmegasimmanx [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE lKx8JK:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:9jA1Fy
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^forums$ http://motube.us/xMegaSimManx [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE 9jA1Fy:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:qU2PUp
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^forum$ http://forum.megasimman.com/ [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE qU2PUp:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:D7cGDi
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^sms$ http://motube.us/xMegaSimManx [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE D7cGDi:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:2DfYlD
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^mms$ http://motube.us/xMegaSimManx [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE 2DfYlD:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:9eoHiz
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^text$ http://motube.us/xMegaSimManx [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE 9eoHiz:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:P0di3e
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^youtube$ http://www.youtube.com/xMegaSimManx [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE P0di3e:REDIRECTID
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:CR1K61
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^megasimman.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.megasimman.com$
-RewriteRule ^donate$ http://msm.eximiusgaming.com/ [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE CR1K61:REDIRECTID
-
 RedirectMatch 301 ^/(.*)/robots\.txt http://megasimman.com/robots.txt
 RedirectMatch 301 ^/(.*)/favicon\.ico http://megasimman.com/favicon.ico
 
-ErrorDocument 400 /
-ErrorDocument 401 /
-ErrorDocument 403 /
-ErrorDocument 404 /
-ErrorDocument 500 /
+RewriteCond %{HTTP_HOST} ^cpanel.megasimman.com$ [NC]
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^(.*)$ https://cpanel.megasimman.com:2083/$1 [L,R=302]
 
-# compress text, html, javascript, css, xml:
+<Files .htaccess>
+deny from all
+</Files>
+
+## Standard Settings to ensure security
+Options -Indexes
+IndexOptions -FancyIndexing
+ 
+## Disable the server signature
+ServerSignature Off
+ 
+## protect against DOS attacks by limiting file upload size - 10240000 is 10 megabytes
+LimitRequestBody 10240000
+ 
+## pass the default character set
+AddDefaultCharset UTF-8
+DefaultLanguage en-US
+
+# compress text, HTML, JavaScript, CSS, and XML
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
 AddOutputFilterByType DEFLATE text/xml
@@ -130,14 +34,243 @@ AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 
-<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
-Header set Cache-Control "max-age=2592000"
-</FilesMatch>
+# remove browser bugs
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+Header append Vary User-Agent
+ 
+## Limit bandwidth consumption
+<IfModule mod_php5.c>
+    php_value zlib.output_compression 16386
+</IfModule>
 
-# explicitly disable caching for scripts and other dynamic files
-<FilesMatch ".(pl|php|cgi|spl|scgi|fcgi)$">
-Header unset Cache-Control
-</FilesMatch>
+## Security
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+	## Block CSX Injections
+	RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+	
+	## Block PHP Injections
+	RewriteCond %{QUERY_STRING} .*(ftp|https?|select|insert|drop|declare|union|base64_decode|base64_encode|globals|request|put|files?|get|post|apache_child_terminate|apache_setenv|define_syslog_variables|escapeshellarg|escapeshellcmd|eval|exec|fp|fput|ftp_connect|ftp_exec|ftp_get|ftp_login|ftp_nb_fput|ftp_put|ftp_raw|ftp_rawlist|highlight_file|ini_alter|ini_get_all|ini_restore|inject_code|mysql_pconnect|openlog|passthru|php_uname|phpAds_remoteInfo|phpAds_XmlRpc|phpAds_xmlrpcDecode|phpAds_xmlrpcEncode|popen|posix_getpwuid|posix_kill|posix_mkfifo|posix_setpgid|posix_setsid|posix_setuid|posix_setuid|posix_uname|proc_close|proc_get_status|proc_nice|proc_open|proc_terminate|shell_exec|syslog|system|xmlrpc_entity_decode).* [NC,OR]
+	
+	## Disable Trace and Track
+	RewriteCond %{REQUEST_METHOD} ^TRACE
+	
+	## Blocking NameProtect Brand Monitoring
+	RewriteCond %{REMOTE_ADDR} ^12\.148\.196\.(12[8-9]|1[3-9][0-9]|2[0-4][0-9]|25[0-5])$ [OR]
+	RewriteCond %{REMOTE_ADDR} ^12\.148\.209\.(19[2-9]|2[0-4][0-9]|25[0-5])$ [OR]
+	RewriteCond %{HTTP_USER_AGENT} NPBot [NC,OR]
+	
+	## Blocking Cyveillance
+	RewriteCond %{REMOTE_ADDR} "^63\.148\.99\.2(2[4-9]|[3-4][0-9]|5[0-5])$" [OR]
+	
+	## Block Domains
+	RewriteCond %{HTTP_USER_AGENT} .*almaden.* [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Anarchie [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} AsiaNetBot [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^ASPSeek [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ASSORT [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ATHENS [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^attach [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^autoemailspider [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} autohttp [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} bew [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} BlackWidow [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^BackWeb [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Bandit [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^BatchFTP [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^.Browse\s [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Buddy [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Bullseye [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Bot\mailto:craftbot@yahoo.com [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^CherryPicker [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Crescent [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^ChinaClaw [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Collector [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Copier [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} curl [NC,OR]
+	
+	RewriteCond %{HTTP_USER_AGENT} devsoft's\ http\ component [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^DA [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Download\Demon [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Download\Wonder [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Downloader [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Drip [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^DIIbot [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Deweb [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Digimarc [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Digger [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} digout4uagent [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} DISCo [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} dloader(NaverRobot) [NC,OR]
+	
+	RewriteCond %{HTTP_USER_AGENT} ecollector [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Educate\ Search [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} EirGrabber [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^EmailCollector [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^EmailSiphon [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^EmailWolf [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^ExtractorPro [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^eCatch [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^EirGrabber [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Express\WebPictures [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^EyeNetIE [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} EO\ Browse [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^.Eval [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^FileHound [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^FlashGet [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} fastlwspider [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} FEZhead [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Fetch [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Franklin\ Locator [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Full\ Web\ Bot [NC,OR]
+	
+	RewriteCond %{HTTP_USER_AGENT} ^GetRight [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Getleft [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^GetSmart [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} GetURL [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} GetWebPage [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Go!Zilla [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Gozilla [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Go-Ahead-Got-It [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^gotit [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Grabber [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^GrabNet [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Grafula [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^.*Harvest [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^HMView [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} HTML\ Works [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^HTTrack [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} "Indy Library" [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} "IUPUI Research Bot" [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^InterGET [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Iria [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^ia_archiver [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^InternetSeer.com [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} IBM_Planetwide [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Image\ Stripper [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Image\ Sucker [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} IncyWincy [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} InterGET [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Internet\ Explore\ 5\.x [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Internet\ Ninja [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Irvine [NC,OR]
+	
+	RewriteCond %{HTTP_USER_AGENT} ^JetCar [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^JOC [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} JOC\ Web\ Spider [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^JustView [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} KWebGet [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} larbin [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} leech [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^LeechFTP [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^lftp [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^likse [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^LinkWalker [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^.*LWP [NC,OR]
+	
+	RewriteCond %{HTTP_USER_AGENT} MCspider [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Microsoft\ URL [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Microsoft.URL [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Magnet [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Mag-Net [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Mass\Downloader [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Memo [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^MIDown\tool [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Mirror [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Missauga\ Locator [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Missigua\ Locator [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Mister\ PiX [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Monster [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Mozilla.*NEWT [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Mozilla\/3\.0\.\+Indy\ Library [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Mozilla\/3.Mozilla\/2\.01 [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Mozilla\/4\.0$ [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Mozzilla [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} MSIECrawler [NC,OR]
+	
+	RewriteCond %{HTTP_USER_AGENT} ^NICErsPRO [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^NASA\ Search\ 1\.0$ [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Navroad [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^NearSite [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} netattache [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^NetAnts [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} NetCarta [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^NetSpider [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Net\Vampire [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^NetZip [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} NICErsPRO [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Ninja [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Octopus [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Offline\Explorer [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Offline\ Navigator [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} OpaL [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Openfind [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} OpenTextSiteCrawler [NC,OR]
+	
+	RewriteCond %{HTTP_USER_AGENT} pavuk [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} PackRat [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^PageGrabber [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^PapaFoto [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^pcBrowser [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Pockey [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Pump [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^psbot [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Plucker [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Production\ Bot [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Program\ Shareware [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} PushSite [NC,OR]
+	
+	RewriteCond %{HTTP_USER_AGENT} RepoMonkey [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Rover [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Rsync [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^RealDownload [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Reaper [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Recorder [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^ReGet [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Siphon [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ScoutAbout [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} searchterms\.it [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} semanticdiscovery [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Shai [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} sitecheck [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Siphon [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SiteSnagger [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SmartDownload [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Snake [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SpaceBison [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Spegla [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} SpiderBot [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Stripper [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Sucker [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SuperBot [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SuperHTTP [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Surfbot [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^.Surf [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} SurfWalker [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^sitecheck.internetseer.com [NC,OR]
+		
+	RewriteCond %{HTTP_USER_AGENT} ^tAkeOut [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} tarspider [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Teleport [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Telesoft [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Templeton [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} UtilMind [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Vacuum [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^VoidEYE [NC,OR]
+			
+	## 403 FORBIDDEN ACCESS
+	RewriteRule .* - [F,NS,L]
+	
+</IfModule>
+
+## Media Optimise
+AddType application/octet-stream .avi .mpg .mov .pdf .xls .mp4
+AddType application/x-endnote-connection enz
+AddType application/x-endnote-filter enf
+AddType application/x-spss-savefile sav
 
 RewriteEngine On
 # proc/self/environ? no way!
@@ -155,94 +288,18 @@ RewriteCond %{QUERY_STRING} _REQUEST(=|[|\%[0-9A-Z]{0,2})
 # Send all blocked request to homepage with 403 Forbidden error!
 RewriteRule ^(.*)$ index.php [F,L]
 
-# secure htaccess file
-<Files .htaccess>
-order allow,deny
-deny from all
-</Files>
-# prevent viewing of a specific file
-<Files secretfile.jpg>
- order allow,deny
- deny from all
-</Files>
-# multiple file types
-<FilesMatch ".(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
- Order Allow,Deny
- Deny from all
+# explicitly disable caching for scripts and other dynamic files
+<FilesMatch ".(pl|php|cgi|spl|scgi|fcgi)$">
+Header unset Cache-Control
 </FilesMatch>
 
-<IfModule mod_rewrite.c> 
-RewriteCond %{REQUEST_URI} /+[^\.]+$ 
-RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
-</IfModule>
-
-SetEnv SITE_WEBMASTER "MegaSimMan"
-SetEnv SITE_WEBMASTER_URI mailto:contact@megasimman.com
-
-UnSetEnv REMOTE_ADDR 
-
-AddType application/x-endnote-connection enz
-AddType application/x-endnote-filter enf
-AddType application/x-spss-savefile sav
-
-AddDefaultCharset UTF-8
-DefaultLanguage en-US
-
-AddType application/octet-stream .avi .mpg .mov .pdf .xls .mp4
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www.megasimman.com
-RewriteRule ^(.*)$ http://megasimman.com/$1 [R=301,L]
-
-RewriteEngine on
-RewriteCond %{SERVER_PORT} !^25565$
-RewriteRule ^/(.*) msm.eximiusgaming.com:25565$1 [NC,R,L]
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^shop\.megasimman\.com$ [NC]
-RewriteRule ^(.*) http://shop.megasimman.com/partner-xMegaSimManx/$1 [L,R]
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^sms\.megasimman\.com$ [NC]
-RewriteRule ^(.*) http://motube.us/xMegaSimManx$1 [L,R]
-
-RewriteCond %{HTTP_HOST} ^forums\.megasimman\.com  
-RewriteRule ^(.*)$ /forum/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^forum\.megasimman\.com  
-RewriteRule ^(.*)$ /forum/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^proxy\.megasimman\.com  
-RewriteRule ^(.*)$ /proxy/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^speedtest\.megasimman\.com  
-RewriteRule ^(.*)$ /speedtest/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^files\.megasimman\.com  
-RewriteRule ^(.*)$ /files/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^original\.megasimman\.com  
-RewriteRule ^(.*)$ /orignal/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^orignal\.megasimman\.com  
-RewriteRule ^(.*)$ /orignal/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^img\.megasimman\.com  
-RewriteRule ^(.*)$ /img/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^panel\.megasimman\.com  
-RewriteRule ^(.*)$ /panel/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^cloud\.megasimman\.com  
-RewriteRule ^(.*)$ /cloud/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^downloads\.megasimman\.com  
-RewriteRule ^(.*)$ /downloads/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^download\.megasimman\.com  
-RewriteRule ^(.*)$ /downloads/$1 [R=301]
-
-RewriteCond %{HTTP_HOST} ^dl\.megasimman\.com  
-RewriteRule ^(.*)$ /downloads/$1 [R=301]
-
-
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript

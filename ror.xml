@@ -4,30 +4,6 @@
   <title>ROR Sitemap for http://megasimman.com/</title>
   <link>http://megasimman.com/</link>
 
-<item>
-     <link>http://megasimman.com/</link>
-     <title>MSM Website</title>
-     <description>MegaSimMans Webpage Portal to Awesome Youtube Vids and Free Games!.</description>
-     <ror:updatePeriod>always</ror:updatePeriod>
-     <ror:sortOrder>0</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://megasimman.com/about/</link>
-     <title>MSM Website</title>
-     <description>MegaSimMans Webpage Portal to Awesome Youtube Vids and Free Games!.</description>
-     <ror:updatePeriod>always</ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://megasimman.com/social/</link>
-     <title>MSM Website</title>
-     <description>MegaSimMans Webpage Portal to Awesome Youtube Vids and Free Games!.</description>
-     <ror:updatePeriod>always</ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
 </channel>
 </rss>
   
